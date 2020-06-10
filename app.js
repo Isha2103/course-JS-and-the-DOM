@@ -1,3 +1,5 @@
 document.addEventListener('click',function(){
-    console.log("You've clicked the document.");
+   const mainHeading= document.querySelector('h1');
+   mainHeading.style.background = "red";
+   console.log("You've clicked the document.");
 })
